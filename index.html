@@ -6,43 +6,45 @@
     <title>Protfolio</title>
     <link rel="icon" href="port.png" type="image/icon type">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Lora:ital,wght@0,400..700;1,400..700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <div id="header">
         <div class="container">
+            <nav class="info">
             <a href="#">Home</a>
             <!-- here target means open a new page for about -->
             <a href="#"> About</a>
             <a href="#">Education</a>
             <a href="#">Contact-Information</a>
+            </nav>
             <nav>
                 <h1>Sojun Chandra</h1>
                 <!-- here into 'alt' if write anything when the image not found then this text show -->
                 <img src="/sojun.jpg" width="200px" height="200px" alt="Image">
             </nav>
-            <nav>
+            <nav class="info">
                 <h3>About:</h3>
-                <p>I am an undergraduate student of Computer Science and Engineering Discipline at Khulna University. I am continuously learning programming knowledge.I like both software engineering and web development.</p>
+                <p class="about">I am an undergraduate student of Computer Science and Engineering Discipline at Khulna University. I am continuously learning programming knowledge.I like both software engineering and web development.</p>
                 <h3>Address:</h3>
-                <p><b>Present address:</b></p>
+                <p class="address">Present address:</p>
                 <a href="https://maps.app.goo.gl/oU4CL29VPz4679FCA" target="_blank">Khan Bahadur Ahsanullah Hall,Khulna University</a>
-                <p><b>Parmanent address:</b></p>
+                <p class="address">Parmanent address:</p>
                 <a href="https://maps.app.goo.gl/aErfT7v2vYLjRotW8" target="_blank">Kasba,Brahmanbaria</a>
             </nav>
-            <nav>
+            <nav class="info">
                 <h3>Projects:</h3>
-                <ol type="1">
-                    <li>SnakeGame</li>
-                    <li>Age Calculator</li>
-                    <li>Simple Calculator</li>
-                    <li>Awareness of Orchid Cultivation</li>
-                </ol>
+                <a href="https://github.com/sojun15/Snakegame">SnakeGame</a><br>
+                <a href="https://github.com/sojun15/Simple-calculator">Simple Calculator</a><br>                    
+                <a href="https://github.com/sojun15/Daily-activity/blob/main/AgeCalculation.java">Age Calculator</a><br>    
+                <a href="https://github.com/sojun15/Micro_Processor_Project-">Awareness of Orchid Cultivation</a>            
             </nav>
-
-            <nav id="skills">
+            <nav >
                 <h3>Skill Language:</h3>
-                <table border="2">
+                <table border="2" class="center">
                     <thead>
                         <th>Language</th>
                         <th>Lavel</th>
@@ -70,13 +72,6 @@
                         </tr>
                     </tbody>
                 </table>
-                <ol type="i">
-                    <li>Java</li>
-                    <li>C++</li>
-                    <li>C</li>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                </ol>
             </nav>
             <nav>
                 <h3>Education:</h3>
@@ -87,10 +82,8 @@
 
             <nav>
                 <h3>Contact Information</h3>
-                <ul>
                     <li>sojunkomer123@gmail.com</li>
                     <li>01794046782</li>
-                </ul>
             </nav>
             <nav id="social">
                 <h3>Social Media:</h3>
@@ -100,7 +93,7 @@
             </nav>
             
             
-        </div>
+        
     </div>
 </body>
 </html>
