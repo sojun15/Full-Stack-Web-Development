@@ -9,40 +9,45 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Lora:ital,wght@0,400..700;1,400..700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <div id="header">
-        <div class="container">
-            <nav class="info">
-            <a href="#">Home</a>
+    <section id="starting">
+        
+            <section id="home">
+            <a href="#home">Home</a>
             <!-- here target means open a new page for about -->
-            <a href="#"> About</a>
-            <a href="#">Education</a>
-            <a href="#">Contact-Information</a>
-            </nav>
-            <nav>
+            <a href="#about"> About</a>
+            <a href="#education">Education</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact-Information</a>
+            
+            </section>
+            <header>
                 <h1>Sojun Chandra</h1>
+                <p>Undergraduate Student</p>
+            </header>
+            <nav>               
                 <!-- here into 'alt' if write anything when the image not found then this text show -->
-                <img src="https://i.postimg.cc/J02Hy0Dn/scs.jpg" width="200px" height="200px" alt="Image">
+            <img src="https://i.postimg.cc/J02Hy0Dn/scs.jpg" width="200px" height="200px" alt="Image" id="left">
             </nav>
-            <nav class="info">
+            <section id="about">
                 <h3>About:</h3>
-                <p class="about">I am an undergraduate student of Computer Science and Engineering Discipline at Khulna University. I am continuously learning programming knowledge.I like both software engineering and web development.</p>
+                <p class="">I am an undergraduate student of Computer Science and Engineering Discipline at Khulna University. I am continuously learning and increasing programming knowledge. I interest to work both software engineering and web-development.</p>
                 <h3>Address:</h3>
                 <p class="address">Present address:</p>
                 <a href="https://maps.app.goo.gl/oU4CL29VPz4679FCA" target="_blank">Khan Bahadur Ahsanullah Hall,Khulna University</a>
                 <p class="address">Parmanent address:</p>
                 <a href="https://maps.app.goo.gl/aErfT7v2vYLjRotW8" target="_blank">Kasba,Brahmanbaria</a>
-            </nav>
-            <nav class="info">
+            </section>
+            <nav id="projcets">
                 <h3>Projects:</h3>
                 <a href="https://github.com/sojun15/Snakegame">SnakeGame</a><br>
                 <a href="https://github.com/sojun15/Simple-calculator">Simple Calculator</a><br>                    
                 <a href="https://github.com/sojun15/Daily-activity/blob/main/AgeCalculation.java">Age Calculator</a><br>    
                 <a href="https://github.com/sojun15/Micro_Processor_Project-">Awareness of Orchid Cultivation</a>            
             </nav>
-            <nav >
+            <section id="skills">
                 <h3>Skill Language:</h3>
                 <table border="2" class="center">
                     <thead>
@@ -72,27 +77,30 @@
                         </tr>
                     </tbody>
                 </table>
-            </nav>
-            <nav class="details">
+            </section>
+            <section id="education">
                 <h3>Education:</h3>
                 <p>Khulna University,Khulna</p>
-                <p>Navy College,Dhaka</p>
-            </nav>
-            <nav class="details">
-                <h3>Running Course:</h3>
+                <p>Navy College,Dhaka</p>           
+                <h3>Running Program:</h3>
+                <p>Remote Internship on Web-development</p>
                 <p>Software Quality and Assurance</p>
                 <p>Full Stack Web-Devolopment</p>
-            </nav>
-            <nav class="details">
+            </section>
+            <section id="contact">
                 <h3>Contact Information:</h3>
-                <p>Gmail : sojunkomer123@gmail.com</p>
-                <p>Phone : 01794046782</p>
-            </nav>
-            <nav id="social">
-                <h3>Social Media:</h3>
+                <a href="mailto:sojunkomer123@gmail.com">sojunkomer123@gmail.com</a><br>
+                <a href="tel:01794046782">01794046782</a>
+                <!-- <p>Gmail : sojunkomer123@gmail.com</p>
+                <p>Phone : 01794046782</p> -->
+            </section>
+            <section id="social">
+                <h3>Social Media:</h3><hr>
                 <a href="https://www.facebook.com/profile.php?id=100007066908445" target="_blank"> <i class="fab fa-facebook"></i></a>
-                <a href="https://www.linkedin.com/in/sojun-chandra-3b5677266/" target="_blank"><i class="fab fa-linkedin"></i></a>                            
-            </nav>       
-    </div>
+                <a href="https://www.linkedin.com/in/sojun-chandra-3b5677266/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://t.me/+8801794046782"><i class="fa-brands fa-telegram"></i></a>            
+            </section>            
+        
+</section>
 </body>
 </html>

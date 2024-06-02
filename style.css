@@ -1,19 +1,17 @@
 /* universal tag is used for all of my html file control */
-*{
-    background-color: black;
-    color: white;
-    /* font-size:20px; */
-}
-h3, h1{
+
+h1{
     color: rgb(4, 250, 13);
     font-size: 60px;
     font-family: sans-serif;
     text-align: center;
     text-shadow: .1rem .1rem gainsboro;
+    text-align: left;
+    margin-bottom: 1rem;
 }
-a{
+section, a{
     color: rgba(116, 9, 237, 0.925);
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
     text-decoration: none;
     
@@ -32,10 +30,11 @@ a li{
     margin-right: auto;
     
 }
-.about{
+#about{
     font-size: 40px;
     color:aquamarine;
     font-weight: normal;
+    background-color: #343F71;
 }
 li{
     font-size: 40px;
@@ -43,51 +42,71 @@ li{
     
 }
 .address{
-    font-size: 50px;
+    font-size: 30px;
     color: gold;
     text-align: center;
     text-decoration: double;
+    margin-bottom: .1rem;
 }
 img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin-top: auto;
+    margin-right: 100%;
+    margin-left: 100px;
+    margin-bottom: 5%;
+    width: 200px;
+    height: 150px;
+    text-align: left;
 }
-.info,a{
+a{
     text-align: center;
     margin-right: 20px;
     margin-left: 20px;
     font-size: 20px;
     font-weight: bold;
+    color: white;
 }
 .center {
     margin-left: auto;
     margin-right: auto;
 }
-.info {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-.container{
-    display:inline-block;
-    /* margin-left: auto;
-    margin-right: auto; */
-    
-}
-div div nav p{
-    text-align: center;
-    font-size: 40px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-.contact{
-    text-align: center;
-    font-size: 40px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
+
 a:hover{
-    color: orangered;
+    color: blue;
     
+}
+
+#left{    
+    float: left;  
+} 
+
+h3{
+    color: rgb(4, 250, 13);
+    font-size: 40px;
+    font-family: sans-serif;
+    text-align: center;
+    margin-bottom: 1rem;
+    text-shadow: .1rem .1rem gainsboro;
+}
+
+header p{
+    font-size: larger;
+    text-align: left;
+    margin-left: 5%;
+    margin-bottom: 2rem;
+    color: #b21cd4;
+}
+
+#starting{
+    background-color: black;
+}
+
+#projcets{
+    background-color: #cf13b9;
+}
+#education{
+    background-color: #f2ea07;
+}
+
+#skills{
+    background-color: #bdb4d4;
 }
