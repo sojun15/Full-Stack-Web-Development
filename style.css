@@ -2,7 +2,7 @@
 
 h1{
     color: rgb(4, 250, 13);
-    font-size: 60px;
+    font-size: 40px;
     font-family: sans-serif;
     text-align: center;
     text-shadow: .1rem .1rem gainsboro;
@@ -109,4 +109,39 @@ header p{
 
 #skills{
     background-color: #bdb4d4;
+}
+
+.parent_animation{
+    height: 50vh;
+    margin-top: 3rem;
+    display: flex;
+    margin-left: 0.5rem; 
+}
+.child_animation{
+    background-color: blue;
+    height: 20rem;
+    width: 25rem;
+    bottom: 5rem;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    animation-name: first;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes first {
+    25%{
+        background-color: white;
+    }
+    50%{
+        background-color: #bf13ba;
+    }
+    75%{
+        background-color: orange;
+    }
+    100%{
+        background-color: orangered;
+    }
 }
